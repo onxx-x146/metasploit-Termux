@@ -33,6 +33,7 @@
 Open Termux and run the following commands:
 
 ```bash
-git clone https://github.com/onxx-x146/Metasploit-Termux.git cd main.sh
-chmod 777 main.sh
+git clone https://github.com/onxx-x146/Metasploit-Termux.git
+cd main.sh
+chmod +x main.sh
 ./main.sh
