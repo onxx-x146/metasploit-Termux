@@ -2,7 +2,21 @@
 apt update $$ apt upgrade -y 
 apt install python -y
 apt install git -y 
+'clear'
+# Get current time in HH:MM:SS format
+current_time=$(date +"%H:%M:%S")
+# Print info message with colors (ANSI 214 for timestamp, bold green for INFO)
+echo -e "\033[38;5;214m[${current_time}]\033[0m \033[1;32m[INFO]:\033[0m Open BY HARI ..."
 
+# Run the Android 'am' command to open the URL in Chrome
+# Redirect stdout and stderr to /dev/null, check exit status
+if am start -a android.intent.action.VIEW -d "https://github.com/onxx-x146" com.android.chrome > /dev/null 2>&1; then
+    : # success, do nothing extra
+else
+    # Print warning on failure
+    echo -e "\033[38;5;214m[${current_time}]\033[0m \033[1;33m[WARNING]:\033[0m Could not open Chrome."
+    exit 1
+fi
 # Function to display a colourful figlet banner (rainbow lines)
 rainbow_figlet() {
     local text="$1"
