@@ -1,4 +1,5 @@
 # *🛡️ Metasploit Termux Installer* 
+<img width="498" height="498" alt="27114" src="https://github.com/user-attachments/assets/7a5b0bb2-42fe-4763-8b72-fc86814d482c" />
 
 [![Version](https://img.shields.io/badge/version-6.4-blue)](#)
 [![Termux](https://img.shields.io/badge/Termux-Android-green)](#)
