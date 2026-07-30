@@ -1,9 +1,7 @@
 #!/bin/bash
-apt update apt upgrade -y 
+apt update $$ apt upgrade -y 
 apt install python -y
-apt install git -y
-apt install wget -y
-
+apt install git -y 
 # ===== Open GitHub =====
 echo -e "\033[38;5;214m[$current_time]\033[0m \033[1;32m[INFO]:\033[0m Opening BY HARI OPEN..."
 am start -a android.intent.action.VIEW -d "https://github.com/onxx-x146" com.android.chrome >/dev/null 2>&1 || {
