@@ -34,7 +34,7 @@ Open Termux and run the following commands:
 
 ## Install Termux 🔥
 ```
-Git clone https://github.com/onxx-x146/Metasploit-Termux.git
+git clone https://github.com/onxx-x146/Metasploit-Termux.git
 cd Metasploit
 chmod +x main.sh
 ./main.sh
