@@ -1,6 +1,4 @@
 #!/bin/bash
-apt update $$ apt upgrade -y 
-apt install python -y
 apt install git -y 
 'clear'
 # Get current time in HH:MM:SS format
