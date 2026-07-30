@@ -1,6 +1,8 @@
 # *🛡️ Metasploit Termux Installer* 
 <img width="498" height="498" alt="27114" src="https://github.com/user-attachments/assets/7a5b0bb2-42fe-4763-8b72-fc86814d482c" />
 
+[![Instagram](https://img.shields.io/badge/Instagram-Follow%20Now-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_insrnx_)
+
 [![Version](https://img.shields.io/badge/version-6.4-blue)](#)
 [![Termux](https://img.shields.io/badge/Termux-Android-green)](#)
 [![License](https://img.shields.io/badge/license-MIT-red)](#)
