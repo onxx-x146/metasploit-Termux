@@ -36,4 +36,4 @@ Open Termux and run the following commands:
 git clone https://github.com/onxx-x146/Metasploit-Termux.git
 cd main.sh
 chmod +x main.sh
-./main.sh
+bash main.sh
