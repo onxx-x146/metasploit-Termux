@@ -1,4 +1,4 @@
-# 🛡️ Metasploit Termux Installer (Hidden & Protected)
+# *🛡️ Metasploit Termux Installer* 
 
 [![Version](https://img.shields.io/badge/version-6.4-blue)](#)
 [![Termux](https://img.shields.io/badge/Termux-Android-green)](#)
@@ -33,7 +33,7 @@
 Open Termux and run the following commands:
 
 ```bash
-pkg install -y git
-git clone https://github.com/YOUR_USERNAME/metasploit-termux-installer.git
-cd metasploit-termux-installer
-bash install.sh
+git clone https://github.com/onxx-x146/Metasploit-Termux.git
+cd main.sh
+chmod 777 main.sh
+./main.sh
