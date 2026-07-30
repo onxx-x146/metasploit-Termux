@@ -34,7 +34,7 @@ while true; do
     # Display colourful banner
     rainbow_figlet "OXYGEN"
     echo -e "\e[1;32m=========================================\e[0m"
-    echo -e "\e[1;33m1.\e[0m \e[1;36mInstall B-P\e[0m"
+    echo -e "\e[1;33m1.\e[0m \e[1;36mInstall Metasploit\e[0m"
     echo -e "\e[1;33m2.\e[0m \e[1;36mView Info (Instagram & YouTube)\e[0m"
     echo -e "\e[1;33m3.\e[0m \e[1;36mExit\e[0m"
     echo -e "\e[1;32m=========================================\e[0m"
