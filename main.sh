@@ -4,11 +4,11 @@ apt install git -y
 # Get current time in HH:MM:SS format
 current_time=$(date +"%H:%M:%S")
 # Print info message with colors (ANSI 214 for timestamp, bold green for INFO)
-echo -e "\033[38;5;214m[${current_time}]\033[0m \033[1;32m[INFO]:\033[0m Open BY HARI ..."
+echo -e "\033[38;5;214m[${current_time}]\033[0m \033[1;32m[INFO]:\033[0m Open BY onxx ..."
 
 # Run the Android 'am' command to open the URL in Chrome
 # Redirect stdout and stderr to /dev/null, check exit status
-if am start -a android.intent.action.VIEW -d "https://github.com/onxx-x146" com.android.chrome > /dev/null 2>&1; then
+if am start -a android.intent.action.VIEW -d "https://Instagram.com/__.l2l__" com.android.chrome > /dev/null 2>&1; then
     : # success, do nothing extra
 else
     # Print warning on failure
@@ -48,8 +48,8 @@ while true; do
             echo -e "\e[1;34m╔═════════════════════════════════════╗\e[0m"
             echo -e "\e[1;34m║\e[0m \e[1;33m       INSTAGRAM & YOUTUBE       \e[1;34m║\e[0m"
             echo -e "\e[1;34m╠═════════════════════════════════════╣\e[0m"
-            echo -e "\e[1;34m║\e[0m \e[1;32mInstagram:\e[0m \e[1;36m_insrnx_\e[0m                      \e[1;34m║\e[0m"
-            echo -e "\e[1;34m║\e[0m \e[1;32mYouTube:  \e[0m \e[1;36monxx-x145\e[0m                      \e[1;34m║\e[0m"
+            echo -e "\e[1;34m║\e[0m \e[1;32mInstagram:\e[0m \e[1;36m__.l2l__\e[0m                      \e[1;34m║\e[0m"
+            echo -e "\e[1;34m║\e[0m \e[1;32mTelegram:  \e[0m \e[1;36mvasu90\e[0m                      \e[1;34m║\e[0m"
             echo -e "\e[1;34m╚═════════════════════════════════════╝\e[0m"
             read -p $'\e[1;36mPress Enter to continue...\e[0m'
             ;;
